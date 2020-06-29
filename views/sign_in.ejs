@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>sign in</title>
+    </head>
+    <link rel = 'stylesheet' href = 'css/home.css'>
+    <body>
+        <div id = "form">
+        <form action="/users/create-session" method="POST" >
+            <input type = "email" name = 'email' placeholder="Enter your email"><br>
+            <input type = 'password' name = 'password' placeholder = "Enter your password"><br>
+            <input type = "submit" value = "Sign-In" id = "submit-btn">
+        </form>
+        <a href="/forget-password">forget password</a>
+        <a href="/sign_up"><button>Sign Up</button></a>
+        <br>
+        <a href="/users/auth/google/"><button>Google Sign-In/Sign-Up</button></a>
+        </div>
+    </body>
+    
+</html>
